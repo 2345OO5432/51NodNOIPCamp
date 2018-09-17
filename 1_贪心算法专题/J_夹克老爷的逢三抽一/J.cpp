@@ -34,7 +34,7 @@ OutputÊ¾Àı
 using namespace std;
 int L[99999],R[99999];
 long long m[99999];
-set<pair<long long,int>>s;
+set<pair<long long,int> >s;
 void insert(int x){
 	s.insert(make_pair(m[x],x));
 }
